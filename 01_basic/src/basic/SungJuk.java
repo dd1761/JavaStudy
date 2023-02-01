@@ -15,7 +15,7 @@ public class SungJuk {
          double avg;
          avg = (double)tot / 3;
          
-         System.out.println("\t" + "*** " + name + " 성적표 ***");
+         System.out.println("\t" + "t" + "*** " + name + " 성적표 ***");
          System.out.println("국어" + "\t" + "\t" + "영어" + "\t" + "\t" + "수학" + "\t" + "\t" + "총점" + "\t" + "\t" + "평균");
          System.out.println(kor + "\t" + "\t" + eng + "\t" + "\t" + math + "\t" + "\t" + tot + "\t" + "\t" + String.format("%.2f", avg));
 

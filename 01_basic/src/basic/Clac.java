@@ -14,10 +14,10 @@ public class Clac {
       div = (double)a / (double)b;
       
       
-      System.out.println("320 + 258 = " + sum);
-      System.out.println("320 - 258 = " + sub);
-      System.out.println("320 * 258 = " + mul);
-      System.out.println("320 / 258 = " + String.format("%.2f", div));
+      System.out.println(a + " + " + b + " = " + sum);
+      System.out.println(a + " - " + b + " = " + sub);
+      System.out.println(a + " * " + b + " = " + mul);
+      System.out.println(a + " / " + b + " = " + String.format("%.2f", div));
       
             
             
