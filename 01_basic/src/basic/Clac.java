@@ -11,7 +11,7 @@ public class Clac {
       sum = a + b;
       sub = a - b;
       mul = a * b;
-      div = (double)a / (double)b;
+      div = (double)a / b;
       
       
       System.out.println(a + " + " + b + " = " + sum);
