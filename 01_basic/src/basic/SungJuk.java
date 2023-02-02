@@ -10,7 +10,7 @@ public class SungJuk {
          kor = 85;
          eng = 78;
          math = 100;
-         tot = (kor + eng + math);
+         tot = kor + eng + math;
          
          double avg;
          avg = (double)tot / 3;

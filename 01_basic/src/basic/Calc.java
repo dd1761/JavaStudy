@@ -1,6 +1,6 @@
 package basic;
 
-public class Clac {
+public class Calc {
    public static void main(String[] args) {
       int a, b;
       a = 320;
@@ -22,11 +22,13 @@ public class Clac {
             
             
             
-         //tring.format("%.2f", Double.parseDouble("sum")
+         
    }
 
 }
 
+
+//tring.format("%.2f", Double.parseDouble("sum")
 //1줄 주석
 /*
 [문제] 320(a), 258(b)을 변수에 저장하여 합(sum), 차(sub), 곱(mul), 몫(div)을 구하시오
