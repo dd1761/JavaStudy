@@ -20,6 +20,7 @@ public class Operator05 {
 		String result2 = b.equals(c) ? "같다" : "다르다";
 		System.out.println("b.equals(c) " +  result2);
 		System.out.println("!b.equals(c)" + (!b.equals(c) ? "참" : "거짓"));
+		
 	}
 
 }
