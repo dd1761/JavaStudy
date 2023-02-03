@@ -7,8 +7,8 @@ public class Dice {
 	public static void main(String[] args) {
 		int dice1, dice2;		// double(8), int(4)
 		int x = 1, y = 6;
-		dice1 = (int)(Math.random() * (y-x+1) +x);
-		dice2 = (int)(Math.random() * (y-x+1) +x);
+		dice1 = (int)(Math.random() * (y-x+1) + x);
+		dice2 = (int)(Math.random() * (y-x+1) + x);
 		int sum = dice1 + dice2;
 		
 		
@@ -16,12 +16,24 @@ public class Dice {
 		String result = dice1 > dice2 ? "주사위 1 승" : dice1 < dice2  ?  "주사위 2 승" : "무승부";
 		System.out.println(result);
 		System.out.println("주사위의 합 : " + sum);
+		
 	}
 
 }
 
+ 
+		
+		
 
 /*
+
+조건 ? 참 : 거짓
+
+
+조건 ? 참 : 조건 ? 참 : 거짓
+
+ 
+ 
  
 [실행결과]
 주사위1 : 3   주사위2 : 1
