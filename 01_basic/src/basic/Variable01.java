@@ -2,6 +2,9 @@ package basic;
 
 public class Variable01 {
 
+   /**
+    * @param args
+    */
    public static void main(String[] args) {
       System.out.println(Integer.MIN_VALUE + "," + Integer.MAX_VALUE);	//전부 대문자는 상수 변하지 않는 값.
       System.out.println(Long.MIN_VALUE + "," + Long.MAX_VALUE);
