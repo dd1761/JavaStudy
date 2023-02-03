@@ -7,6 +7,7 @@ public class Salary {
 
 	public static void main(String[] args) {
 		
+		
 		Scanner scanner = new Scanner(System.in); 
 		DecimalFormat df = new DecimalFormat();
 		
@@ -29,7 +30,7 @@ public class Salary {
 			
 		//tax = sum < 5000000 &&  sum >= 3000000 ? sum * 0.02 : sum;
 		//tax = sum < 1000000 ? sum * 0.01 : sum;
-		System.out.println("*** " +name + " " + rank + "월급 ***");
+		System.out.println("*** " + name + " " + rank + " 월급 ***");
 		System.out.println("기본급 : " + df.format(money)+"원");
 		System.out.println("수당 : " + df.format(plusmoney)+"원");
 		System.out.println("합계 : " + df.format(sum)+"원");
