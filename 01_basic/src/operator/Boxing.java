@@ -19,7 +19,7 @@ public class Boxing {
         Integer g = 5;
         //int h = g; // auto-unboxing 또는 unauto-boxing  (객체형 -> 기본형) 객체형을 기본형으로 바꿔주는 것.
         int h = g.intValue();
-        
+        //
         
 
     }
