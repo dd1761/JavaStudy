@@ -14,8 +14,7 @@ public class Array05 {
 		        count[ar[i] - 'A']++;
 		    }
 		    System.out.print(ar[i] + " ");
-		    stack = stack + 1;
-		    if(stack % 10 == 0) {
+		    if(i % 10 == 9) {
 		    	System.out.println();
 		    }
 		}
