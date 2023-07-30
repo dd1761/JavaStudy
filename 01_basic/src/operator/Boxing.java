@@ -8,6 +8,8 @@ public class Boxing {
 
         String c = "25";
 
+        // 하루커밋
+        
         //int d = (int)c; // error (기본형) 객체형
         int d = Integer.parseInt(c); // 문자열을 정수로 변환
 
